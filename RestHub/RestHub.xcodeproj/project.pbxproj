@@ -14,6 +14,7 @@
 		FF44DC252853B21D008BF968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF44DC242853B21D008BF968 /* Assets.xcassets */; };
 		FF44DC282853B21D008BF968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF44DC262853B21D008BF968 /* LaunchScreen.storyboard */; };
 		FF44DC302853B25C008BF968 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44DC2F2853B25C008BF968 /* DataService.swift */; };
+		FF44DC322853BDD1008BF968 /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44DC312853BDD1008BF968 /* Gist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FF44DC272853B21D008BF968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF44DC292853B21D008BF968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF44DC2F2853B25C008BF968 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FF44DC312853BDD1008BF968 /* Gist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				FF44DC2F2853B25C008BF968 /* DataService.swift */,
+				FF44DC312853BDD1008BF968 /* Gist.swift */,
 				FF44DC1B2853B21A008BF968 /* AppDelegate.swift */,
 				FF44DC1D2853B21A008BF968 /* SceneDelegate.swift */,
 				FF44DC1F2853B21A008BF968 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF44DC322853BDD1008BF968 /* Gist.swift in Sources */,
 				FF44DC202853B21A008BF968 /* ViewController.swift in Sources */,
 				FF44DC1C2853B21A008BF968 /* AppDelegate.swift in Sources */,
 				FF44DC1E2853B21A008BF968 /* SceneDelegate.swift in Sources */,

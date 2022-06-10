@@ -16,8 +16,11 @@ class ViewController: UIViewController {
             (result) in
             
             switch result {
-                case .success(let json):
-                    print(json)
+                case .success(let gists):
+                  //  print(json)
+                for gist in gists{
+                    print("\(gist)\n")
+                }
             case .failure(let error):
                 print(error)
             }
