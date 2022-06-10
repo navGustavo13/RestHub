@@ -14,7 +14,7 @@ struct Gist: Codable {
     var description: String
     
     enum CodingKeys : String, CodingKey{
-        case id,isPublic = "public"
+        case id,description,isPublic = "public"
     }
     
     init(from decoder: Decoder) throws{
@@ -22,6 +22,6 @@ struct Gist: Codable {
     
         self.id = try container.decode(String.self, forKey: .id)
         self.isPublic = try container.decode(Bool.self, forKey: .isPublic)
-         
+        self.description = try container.decode(String.self, forKey: .description)
     }
 }
