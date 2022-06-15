@@ -60,15 +60,15 @@
 		FF44DC1A2853B21A008BF968 /* RestHub */ = {
 			isa = PBXGroup;
 			children = (
-				FF44DC2F2853B25C008BF968 /* DataService.swift */,
-				FF44DC312853BDD1008BF968 /* Gist.swift */,
 				FF44DC1B2853B21A008BF968 /* AppDelegate.swift */,
-				FF44DC1D2853B21A008BF968 /* SceneDelegate.swift */,
 				FF44DC1F2853B21A008BF968 /* ViewController.swift */,
 				FF44DC212853B21A008BF968 /* Main.storyboard */,
 				FF44DC242853B21D008BF968 /* Assets.xcassets */,
 				FF44DC262853B21D008BF968 /* LaunchScreen.storyboard */,
 				FF44DC292853B21D008BF968 /* Info.plist */,
+				FF44DC2F2853B25C008BF968 /* DataService.swift */,
+				FF44DC312853BDD1008BF968 /* Gist.swift */,
+				FF44DC1D2853B21A008BF968 /* SceneDelegate.swift */,
 			);
 			path = RestHub;
 			sourceTree = "<group>";
